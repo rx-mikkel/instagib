@@ -12,17 +12,7 @@ Heat shimmer effect around the railgun ray
 
 
 
-Based on:
-                   ,---------------------------------------.
-                   |   _                     _       ____  |
-                   |  (_)___  __ _ _  _ __ _| |_____|__ /  |
-                   |  | / _ \/ _` | || / _` | / / -_)|_ \  |
-                   |  |_\___/\__, |\_,_\__,_|_\_\___|___/  |
-                   |            |_|                        |
-                   |                                       |
-                   `--------- https://ioquake3.org --------'
-
-
+Based on Ioquake3
 
 # Compilation and installation
 
