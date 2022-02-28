@@ -1,5 +1,18 @@
-![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)
+Instagib game with modern UI support built in. The idea in short:
 
+Maps have no pick-ups.
+you don’t take damage from environment, unless it’s a killswitch (falling off the map, being crushed). No partial damage ever.
+Railgun has an alternate fire “rail-jump” basically spawning an invisible rocket to let you jump. Ideally a new visual effect. This does not push or in any way affect enemy players. This is on it’s own cooldown unlike insta-unlagged where the cd is shared between normal shot and rail-jump (which means most players never railjump while an enemy is in sight.) The idea being that you can fly through the air while killing your opponents - if you are awesome enough.
+if you kill an enemy, once the kill is resolved on the server your shot cooldown on the railgun is reset, meaning you can kill many players in a short time - if you are awesome enough.
+Extras:
+
+Streamline the UI, since the game is now very simple armor, health and weapon info goes away. Score and maybe accuracy are the only things displayed.
+More rail colors to choose from
+Heat shimmer effect around the railgun ray
+
+
+
+Based on:
                    ,---------------------------------------.
                    |   _                     _       ____  |
                    |  (_)___  __ _ _  _ __ _| |_____|__ /  |
@@ -9,68 +22,7 @@
                    |                                       |
                    `--------- https://ioquake3.org --------'
 
-The intent of this project is to provide a baseline Quake 3 which may be used
-for further development and baseq3 fun.
-Some of the major features currently implemented are:
 
-  * SDL 2 backend
-  * OpenAL sound API support (multiple speaker support and better sound
-    quality)
-  * Full x86_64 support on Linux
-  * VoIP support, both in-game and external support through Mumble.
-  * MinGW compilation support on Windows and cross compilation support on Linux
-  * AVI video capture of demos
-  * Much improved console autocompletion
-  * Persistent console history
-  * Colorized terminal output
-  * Optional Ogg Vorbis support
-  * Much improved QVM tools
-  * Support for various esoteric operating systems
-  * cl_guid support
-  * HTTP/FTP download redirection (using cURL)
-  * Multiuser support on Windows systems (user specific game data
-    is stored in "%APPDATA%\Quake3")
-  * PNG support
-  * Many, many bug fixes
-
-The map editor and associated compiling tools are not included. We suggest you
-use a modern copy from http://icculus.org/gtkradiant/.
-
-The original id software readme that accompanied the Q3 source release has been
-renamed to id-readme.txt so as to prevent confusion. Please refer to the
-website for updated status.
-
-More documentation including a Player's Guide and Sysadmin Guide are on:
-https://ioquake3.org/help/
-
-If you've got issues that you aren't sure are worth filing as bugs, or just
-want to chat, please visit our forums:
-https://discourse.ioquake.org
-
-# Thank You:
-
-<p>
-  <a href="https://www.digitalocean.com/">Digital Ocean<br/>
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="201px">
-  </a>
-</p>
----
-<p>
-<a href="https://www.discourse.org/">Discourse<br/>
-<img src=
-"https://user-images.githubusercontent.com/1681963/52239617-e2683480-289c-11e9-922b-5da55472e5b4.png"
- width="300px"></a>
-</p>
----
-<p>
-<a href="https://icculus.org/">icculus dot org<br/>
-<img src="http://icculus.org/icculus-org-now.png" width="300px"></a>
-</p>
----
-<p>
-<a href="https://nuclearmonster.com/">Nuclear Monster<br/>
-<img src="https://user-images.githubusercontent.com/903791/152968830-dd08737b-55c6-4ac6-9610-31121ea0e8c6.png" width="300px"></a>
-</p>
 
 # Compilation and installation
 
